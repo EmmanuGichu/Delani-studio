@@ -1,0 +1,8 @@
+section{
+    height: 100vh;
+}
+#intro-section{
+    background:url(./images/assets/backgrounds/h_img.jpg) center center;
+    background-size: cover;
+    color: white;
+}
