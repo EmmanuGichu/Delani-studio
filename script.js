@@ -30,7 +30,7 @@ $(document).ready(function(){
 });
 
 function flip(evt){
-    
+
 }
 
 function pulsate(element, descriptionElement) {
@@ -41,3 +41,22 @@ function pulsate(element, descriptionElement) {
     });
 }
 
+$(document).ready(function(){
+    bounce();
+    $("mouse-click-icon").click(scrollToaboutus);
+    $("what-we-do-icon").click(function(evt){
+        pulsate(clickedElement, $(clickedElement).prev());
+    });
+
+    $(".description").hover(function(){
+        pulsate(this, $(this).next());
+    });
+
+    $("contactusform").submit(function(evt){
+        evt.preventDefault();
+
+        const form =evt.target;
+        if(!form.checkvalidity()){
+            
+    }
+});

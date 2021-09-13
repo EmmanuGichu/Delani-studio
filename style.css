@@ -1,5 +1,5 @@
 section{
-    height: 100vh;
+   min-height: 100vh; 
 }
 
 #intro-section{
@@ -13,12 +13,18 @@ section{
     background-size: cover;
 }
 
+#contactus-section{
+    background: url(./images/assets/backgrounds/c_image.jpg) center center;
+    background-size: cover
+}
+
 #portfolio-section{
     width: 100%;
 }
 
 #what-we-do-section .description{
     display: none;
+    opacity: 0;
 }
 
 .what-we-do-icon{
