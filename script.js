@@ -53,10 +53,15 @@ $(document).ready(function(){
     });
 
     $("contactusform").submit(function(evt){
+        console.log('form submitted');
         evt.preventDefault();
 
         const form =evt.target;
         if(!form.checkvalidity()){
-            
-    }
+            $(form).find('.alert').html("check missing fields").show();
+            return;
+        }
+
+
+    });
 });
