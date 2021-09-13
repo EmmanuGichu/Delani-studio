@@ -12,3 +12,7 @@ section{
     background: url(./images/assets/backgrounds/s_image.jpg) center center;
     background-size: cover;
 }
+
+#portfolio-section{
+    width: 100%;
+}
