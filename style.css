@@ -16,3 +16,11 @@ section{
 #portfolio-section{
     width: 100%;
 }
+
+#what-we-do-section .description{
+    display: none;
+}
+
+.what-we-do-icon{
+    cursor: pointer;
+}

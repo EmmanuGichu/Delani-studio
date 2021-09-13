@@ -28,3 +28,16 @@ $(document).ready(function(){
     $("mouse-click-icon").click(scrollToaboutus);
      
 });
+
+function flip(evt){
+    
+}
+
+function pulsate(element, descriptionElement) {
+    console.log(descriptionElement)
+    $(element || this).animate({opacity: 0}, 500, function() {
+        $(element).hide();
+        $(descriptionElement).show().animate({ opacity:1},1000);
+    });
+}
+
